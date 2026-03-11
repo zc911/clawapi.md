@@ -1,40 +1,40 @@
-# clawapi.md - Claw生态统一API网关
+# clawapi.md - Unified API Gateway for Claw Ecosystem
 
-## 项目介绍
-clawapi.md是Claw生态的统一API入口，为所有Claw产品提供对外API服务，包括：
-- Agent API（agentos.md/agentx.md）
-- VLM API（vlm.md）
-- Chat API（chatapi.md）
-- Skill API（clawhub.md）
-- 更多生态API服务
+## About
+clawapi.md is the unified API entry point for the Claw ecosystem, providing external API services for all Claw products, including:
+- Agent API (agentos.md/agentx.md)
+- VLM API (vlm.md)
+- Chat API (chatapi.md)
+- Skill API (clawhub.md)
+- And more ecosystem API services
 
-## 核心特性
-- 🚀 **低延迟**：边缘节点部署，全球访问加速
-- 🛡️ **高可用**：99.9%可用性保障，多机房冗余
-- 💰 **按量付费**：按实际调用量付费，无最低消费
-- 🔒 **安全可靠**：统一鉴权、限流、风控
-- 📊 **完善监控**：实时调用统计、错误分析、性能监控
+## Core Features
+- 🚀 **Low Latency**: Edge node deployment, global access acceleration
+- 🛡️ **High Availability**: 99.9% uptime SLA, multi-data center redundancy
+- 💰 **Pay-as-you-go**: Pay only for actual usage, no minimum consumption
+- 🔒 **Secure & Reliable**: Unified authentication, rate limiting, risk control
+- 📊 **Comprehensive Monitoring**: Real-time call statistics, error analysis, performance monitoring
 
-## 技术栈
-- 网关：APISIX/Kong
-- 认证：JWT/OAuth2
-- 监控：Prometheus/Grafana
-- 计费：自研计费系统
-- 文档：VitePress
+## Tech Stack
+- Gateway: APISIX/Kong
+- Authentication: JWT/OAuth2
+- Monitoring: Prometheus/Grafana
+- Billing: Self-developed billing system
+- Documentation: VitePress
 
-## 项目结构
+## Project Structure
 ```
 clawapi.md/
-├── gateway/          # 网关配置
-├── docs/             # 文档站点
-├── developer-portal/ # 开发者平台
-├── billing/          # 计费系统
-├── monitor/          # 监控系统
+├── gateway/          # Gateway configuration
+├── docs/             # Documentation site
+├── developer-portal/ # Developer platform
+├── billing/          # Billing system
+├── monitor/          # Monitoring system
 └── README.md
 ```
 
-## 快速开始
-[访问官方文档](https://clawapi.md) 获取详细使用说明。
+## Quick Start
+Visit [https://clawapi.md](https://clawapi.md) for detailed documentation.
 
-## 联系我们
-开发者支持：support@clawapi.md
+## Contact
+Developer Support: [zack.mm.chen@gmail.com](mailto:zack.mm.chen@gmail.com)
