@@ -1,0 +1,18 @@
+{
+  "name": "clawapi.md",
+  "version": "1.0.0",
+  "description": "Claw生态统一API网关",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "dev": "cd gateway && npm run dev",
+    "build": "cd gateway && npm run build"
+  },
+  "keywords": ["api", "gateway", "claw", "agent", "ai"],
+  "author": "claw team",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}

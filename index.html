@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clawapi.md - Claw生态统一API网关</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #333;
+        }
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            padding: 60px;
+            max-width: 800px;
+            text-align: center;
+            animation: fadeIn 0.6s ease-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .logo {
+            font-size: 4rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 20px;
+        }
+        .subtitle {
+            font-size: 1.5rem;
+            color: #666;
+            margin-bottom: 40px;
+            font-weight: 400;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            margin: 50px 0;
+            text-align: left;
+        }
+        .feature {
+            padding: 20px;
+            background: #f8f9ff;
+            border-radius: 12px;
+            border-left: 4px solid #667eea;
+        }
+        .feature h3 {
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+        }
+        .feature p {
+            color: #666;
+            font-size: 0.9rem;
+            line-height: 1.6;
+        }
+        .status {
+            display: inline-block;
+            background: #d4edda;
+            color: #155724;
+            padding: 8px 20px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            margin-bottom: 30px;
+        }
+        .cta {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px 40px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: transform 0.2s, box-shadow 0.2s;
+            margin: 10px;
+        }
+        .cta:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.4);
+        }
+        .footer {
+            margin-top: 50px;
+            color: #999;
+            font-size: 0.85rem;
+        }
+        .domain-matrix {
+            margin-top: 40px;
+            padding: 30px;
+            background: #f0f4ff;
+            border-radius: 12px;
+        }
+        .domain-matrix h3 {
+            color: #667eea;
+            margin-bottom: 20px;
+        }
+        .domains {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+        }
+        .domain-tag {
+            background: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            color: #667eea;
+            font-weight: 500;
+            border: 2px solid #667eea;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="status">🚀 即将上线，敬请期待</div>
+        <div class="logo">clawapi.md</div>
+        <h1 class="subtitle">Claw生态统一API网关</h1>
+        
+        <p style="font-size: 1.1rem; color: #555; margin-bottom: 30px; line-height: 1.7;">
+            一站式AI Agent API服务平台，为开发者提供稳定、高效、低成本的AI能力接入
+        </p>
+
+        <div class="features">
+            <div class="feature">
+                <h3>⚡ 低延迟</h3>
+                <p>全球边缘节点部署，平均响应时间<50ms</p>
+            </div>
+            <div class="feature">
+                <h3>🛡️ 高可用</h3>
+                <p>99.9%可用性保障，多机房冗余部署</p>
+            </div>
+            <div class="feature">
+                <h3>💰 按量付费</h3>
+                <p>按实际调用量付费，无最低消费门槛</p>
+            </div>
+            <div class="feature">
+                <h3>🔒 安全可靠</h3>
+                <p>统一鉴权、限流、风控，保障接口安全</p>
+            </div>
+        </div>
+
+        <div class="domain-matrix">
+            <h3>Claw生态域名矩阵</h3>
+            <div class="domains">
+                <span class="domain-tag">agentos.md</span>
+                <span class="domain-tag">agentx.md</span>
+                <span class="domain-tag">vlm.md</span>
+                <span class="domain-tag">chatapi.md</span>
+                <span class="domain-tag">clawhub.md</span>
+                <span class="domain-tag">clawapi.md</span>
+            </div>
+        </div>
+
+        <div style="margin-top: 40px;">
+            <a href="#" class="cta">📖 查看文档</a>
+            <a href="#" class="cta">💻 开发者平台</a>
+        </div>
+
+        <div class="footer">
+            © 2026 Claw生态. All rights reserved.
+        </div>
+    </div>
+</body>
+</html>
